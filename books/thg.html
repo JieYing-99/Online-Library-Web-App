@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Harambe Online Library</title>
+    <link href="../template/Temp.css" rel="stylesheet" type="text/css" />
+    <link href="Book.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+    <!--Google font: font-family: 'Bitter', serif;-->
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap" rel="stylesheet">
+    <!--Google font: font-family: 'Crete Round', serif;-->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+
+<body>
+    <div id="header">
+        <img id="logo" src="../template/Logo.png" usemap="#image-map" style="border: none; margin-left: 2%; height: auto; margin-top: 0%;" />
+
+<map name="image-map">
+    <area target="_self" alt="Click Here To Go Back To Homepage" title="Click Here To Go Back To Homepage" href="../main/Main.html" coords="523,292,15,16" shape="rect">
+</map>
+
+        <div id="headerRight">
+            <div id="name">
+                <!--<img src="Name.png" />-->
+                <h1>Harambe Online Library</h1>
+            </div>
+            <br />
+            <div class="navbar">
+                <a href="../main/Main.html" id="home">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn" id="category">Category
+                        
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="../category/categoryeng1.html" id="englishCategory">English</a>
+                        <a href="../category/categorychi1.html" id="chineseCategory">Chinese</a>
+                    </div>
+                </div>
+                <a href="../about/About.html" id="about">About</a>
+                <a href="../contact/Contact.html" id="contact">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="bodyContent">
+        <div id="reviews">
+            <p id="reviewTitle">Reader Reviews</p>
+            <div class="review"><p class="user"><i class="fas fa-user-circle" style="font-size:32px;">&nbsp;</i>Supergirl</p><p class="date">12/08/2018</p>
+                <br/><span style="color: orange">&#9733;&#9733;&#9733;&#9733;</span><span style="color: lightgray">&#9733;</span>
+                <br/>Well this trilogy is one of the best novels that I've ever read. The thing which I liked the most is the significance of the Mockingjay pin weared by katniss. 
+                I feel happy when finally everything ended up soundly.</div>
+            
+            <div class="review"><p class="user"><i class="fas fa-user-circle" style="font-size:32px;">&nbsp;</i>Natalie </p><p class="date">22/06/2018</p>
+                <br/><span style="color: orange">&#9733;&#9733;&#9733;</span><span style="color: lightgray">&#9733;&#9733;</span>
+                <br/>this is a big dump of boring characters that includes katiness and peeta and this is what i think about the books</div>
+            
+            <div class="review"><p class="user"><i class="fas fa-user-circle" style="font-size:32px;">&nbsp;</i>Mark 80</p><p class="date">12/10/2017</p>
+                <br/><span style="color: orange">&#9733;&#9733;&#9733;</span><span style="color: lightgray">&#9733;&#9733;</span>
+                <br/>After reading this book I found myself full. I thought I would hungry after reading with a title like that, but i wasn't. Dissapointing.</div>
+            
+            <div class="review"><p class="user"><i class="fas fa-user-circle" style="font-size:32px;">&nbsp;</i>Ultron </p><p class="date">01/03/2017</p>
+                <br/><span style="color: orange">&#9733;&#9733;&#9733;</span><span style="color: lightgray">&#9733;&#9733;</span>
+                <br/>Boring storyline.</div>
+            <div class="review"><p class="user"><i class="fas fa-user-circle" style="font-size:32px;">&nbsp;</i>Aang</p><p class="date">11/02/2017</p>
+                <br/><span style="color: orange">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                <br/>An amazing book. Really interesting and engaging. The political and the adventurous theme of the book is really good. The dystopian future of North America could not have been thought to be this exciting.</div>
+        </div>
+
+        <div class="top">
+            <div class="left">
+                <img src="../images/thg.jpg" alt="TheHungerGames"/>
+                <button class= "read"><a href="../pdf/thg.pdf" target="window">Read</a></button>
+            </div>
+
+            <div class="middle">
+                <span class="title">The Hunger Games</span><br/>
+                    <span class="author">by <i>Suzanne Collins</i></span><br/>
+                    <div id="rating"><span style="color: orange">&#9733;&#9733;&#9733;</span><span style="color: lightgray">&#9733;&#9733;</span></div>
+                
+                    <div class="tab">
+                        <button id="descriptionButton" class="tablinks" onclick="openInfo(event, 'description')">Description</button>
+                        <button id="detailsButton" class="tablinks" onclick="openInfo(event, 'details')">Details</button>
+                    </div>
+            
+                <div id="description" class="tabcontent">
+                    <p>
+                        In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. The Capitol is harsh and cruel and keeps the districts in line by forcing them all to send one boy and one girl between the ages of twelve and eighteen to participate in the annual Hunger Games, a fight to the death on live TV.
+                        <br><br>
+                        Sixteen-year-old Katniss Everdeen, who lives alone with her mother and younger sister, regards it as a death sentence when she steps forward to take her sister's place in the Games. But Katniss has been close to dead before-and survival, for her, is second nature. Without really meaning to, she becomes a contender. 
+                        <br><br>
+                        But if she is to win, she will have to start making choices that weigh survival against humanity and life against love.
+                    </p>
+                </div>
+            
+                <div id="details" class="tabcontent">
+                    <p><b>Publisher:</b> Scholastic Corporation</p>
+                    <p><b>About the Author:</b><br/>
+                        Suzanne Collins (born August 10, 1962) is an American television writer and author. She is known as the author of The New York Times best-selling series The Underland Chronicles and The Hunger Games trilogy.
+                    </p>
+                    <p><b>Release Date:</b> 14 September 2008</p>
+                </div>
+            </div>
+        </div>
+        <script>
+            document.getElementsByClassName('tablinks')[0].click()
+            function openInfo(evt, infoType) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(infoType).style.display = "block";
+            evt.currentTarget.className += " active";
+            }
+        </script>
+
+        <div class="bottom">
+            <hr style="color: #6983aa;"/>
+            <h3>People who read this book also read:</h3>
+
+            <div class="columncombined">
+        
+                <div class="row">
+                    <div class="column">
+                        <div class="container2">
+                            <a href="Divergent.html"><img src="../images/divergent.jpg" alt="Divergent"></a>
+                            <div class="middle2">
+                                <div class="text"><span class="colorstar">&#9733;&#9733;&#9733;&#9733;</span><span class="nocolorstar">&#9733;</span></div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <p class="booktitle">Divergent</p>
+                            <p>by <i>Veronica Roth</i></p>
+                        </div>
+                    </div>
+        
+                    <div class="column">
+                        <div class="container2">
+                            <a href="Insurgent.html"><img src="../images/insurgent.jpg" alt="Insurgent"></a>
+                            <div class="middle2">
+                                <div class="text"><span class="colorstar">&#9733;&#9733;&#9733;&#9733;&#9733;</span></div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <p class="booktitle">Insurgent</p>
+                            <p>by <i>Veronica Roth</i></p>
+                        </div>
+                    </div>
+        
+                    <div class="column">
+                        <div class="container2">
+                            <a href="cf.html"><img src="../images/cf.jpg" alt="CatchingFire"></a>
+                            <div class="middle2">
+                                <div class="text"><span class="colorstar">&#9733;&#9733;&#9733;&#9733;</span><span class="nocolorstar">&#9733;</span></div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <p class="booktitle">Catching Fire</p>
+                            <p>by <i>Suzanne Collins</i></p>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="container2">
+                            <a href="mj.html"><img src="../images/mj.jpg" alt="Mockingjay"></a>
+                            <div class="middle2">
+                                <div class="text"><span class="colorstar">&#9733;&#9733;&#9733;&#9733;</span><span class="nocolorstar">&#9733;</span></div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <p class="booktitle">Mockingjay</p>
+                            <p>by <i>Suzanne Collins</i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <div id="footer">
+        <div id="feedback">
+            <a href="../feedback/Feedback.html">CLICK HERE TO SEND FEEDBACK</a>
+        </div>
+        <div id="address">
+            <a href="../contact/Contact.html">
+                Jalan Genting Kelang, Setapak,<br />
+                53300 Kuala Lumpur,<br />
+                P.O. Box 10979,<br />
+                50932 Kuala Lumpur, Malaysia.
+            </a>
+        </div>
+        
+    </div>
+
+    <div id="copyright">&copy; 2020 Harambe Online Library. All rights reserved.</div>
+</body>
+
+</html>

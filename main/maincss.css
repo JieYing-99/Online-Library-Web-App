@@ -1,0 +1,135 @@
+.columncombined {
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.pagebar {
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    padding: 12px;
+    letter-spacing: 4px;
+}
+
+.column {
+    margin-top: 20px;
+    float: left;
+    height: 22em;
+    width: 12em;
+    padding: 42px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: -10px;
+}
+
+.genresub {
+    display: block;
+    font-family: 'Bitter', serif;
+    font-size: 15px;
+    margin-bottom: -20px;
+    padding-left: 32px;
+    text-decoration: underline;
+}
+
+.rmore {
+    font-family: 12;
+    font-family: 'Bitter', serif;
+    text-align: right;
+    padding-right: 52px;
+}
+
+/* Style the images inside the grid */
+
+div.container {
+    text-align: center;
+    padding: 2px 0px 0px 0px;
+}
+
+.booktitle {
+    font-family: 'Crete Round', serif;
+    font-size: 18px;
+}
+
+.pageh {
+    font-family: 'Crete Round', serif;
+    font-size: 20px;
+    padding-left: 60px;
+    text-decoration: underline;
+}
+
+.column img {
+    border: 2px sold #ddd;
+    width: 12em;
+    height: 16em;
+    opacity: 1.0;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.column img:hover {
+    opacity: 0.8;
+    filter: grayscale(100%);
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.container2 {
+    position: relative;
+    width: 50%;
+}
+  
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.container2:hover .image {
+    opacity: 0.3;
+}
+  
+.container2:hover .middle {
+    opacity: 1;
+}
+  
+.text {
+ 
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.colorstar {
+    color: gold;
+    font-size: 25px;
+}
+
+.nocolorstar {
+    color: lavender;
+    font-size: 25px;
+}

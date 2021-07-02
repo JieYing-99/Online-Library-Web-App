@@ -1,0 +1,140 @@
+#bodyContent {
+    width: 1000px;
+    height: auto;
+    margin: auto auto;
+    border: 3px solid #8566aa;
+}
+
+#bodyContent h1 {
+    text-align: center;
+    font-size: 28pt;
+}
+
+#disclaimer {
+    width: 90%;
+    margin: 2% 5% 2% 5%;
+}
+
+#required {
+    text-align: right;
+}
+
+#bodyContent span {
+    color: red;
+}
+
+#bodyContent h2 {
+    text-align: center;
+    font-size: 18pt;
+}
+
+fieldset {
+    border: none;
+}
+
+.field {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px;
+    border: none;
+}
+
+#personalInfo {
+    width: 90%;
+    margin: 20px 40px;
+    padding: 10px;
+    border: none;
+    border-top: 3px solid #8566aa;
+    border-bottom: 3px solid #8566aa;
+}
+
+#personalLeft {
+    float: left;
+    width: 42%;
+    margin-left: 12%;
+}
+
+#personalRight {
+    float: left;
+    width: 40%;
+    margin-right: 6%;
+}
+
+#preferences {
+    width: 90%;
+    margin: 0px 40px;
+    margin-bottom: 0;
+    padding: 0px 10px;
+}
+
+#ratings {
+    width: 90%;
+    margin: 20px 40px;
+    padding: 0px 10px;
+}
+
+#comments {
+    width: 90%;
+    margin: 0px 40px;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.preferenceQuestion, .ratingQuestion, .commentQuestion {
+    text-indent: 80px;
+    margin: 20px;
+}
+
+.commentQuestion label {
+    margin: 0px;
+}
+
+input[type=text] {
+    margin-left: 15px;
+    height: 20px;
+}
+
+select {
+    margin-left: 15px;
+    height: 24px;
+}
+
+textarea {
+    margin: 15px 100px;
+    resize: none;
+    display: block;
+    width: 75%;
+}
+
+.genderLabel {
+    display: inline;
+}
+
+#buttons {
+    width: 90%;
+    margin: 20px 40px;
+    margin-top: 0;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+#buttons input {
+    width: 120px;
+    height: 50px;
+    padding: 10px auto;
+    font-size: 16pt;
+    background-color: white;
+    color: #8566aa;
+    border: 4px solid #8566aa;
+    border-radius: 40%;
+    cursor: pointer;
+}
+
+#buttons input:hover {
+    background-color: #8566aa;
+    border-radius: 40%;
+    color: white;
+}

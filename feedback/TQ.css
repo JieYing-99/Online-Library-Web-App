@@ -1,0 +1,17 @@
+#bodyContent {
+    width: 1000px;
+    height: auto;
+    margin: auto auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#bodyContent a {
+    text-decoration: none;
+    color: blue;
+}
+
+#bodyContent a:hover {
+    text-decoration: underline;
+}
